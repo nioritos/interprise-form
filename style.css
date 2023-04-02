@@ -56,13 +56,11 @@ form div {
 }
 
 .content-form div input, .content-form div select {
-    height: 2rem;
-    font-size: 16px;
+    height: 2.5rem;
+    font-size: 18px;
 }
 
-.content-form option {
-    height: 2rem;
-    font-size: 16px;
+.content-form select option {
 }
 
 form button {
