@@ -89,6 +89,6 @@ form button {
   @media (max-width: 720px) {
     .form{ 
         transition: 0.5s;
-        max-width: 80%;}
+        max-width: 95%;}
     
   }
