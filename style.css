@@ -52,16 +52,21 @@ form div {
 
 .content-form {
     width: 85%;
-
 }
 
-.content-form div{
-    margin: 0.5rem 0;
+.content-form div {
+    margin-bottom: 0.2rem;
+}
+
+.content-form div label {
+    margin: 0.4rem 0;
 }
 
 .content-form div input, .content-form div select {
     height: 2.5rem;
     font-size: 18px;
+    border-radius: 0.4rem; 
+    border: none;
 }
 
 .content-form select option {
@@ -77,6 +82,13 @@ form button {
     font-weight: 600;
     color: #fff;
     border-radius: 0.5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    transition: 0.5s;
+    opacity: 0.8;
 }
 
 
