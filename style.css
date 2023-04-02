@@ -8,7 +8,8 @@ body {
 
 }
 
-.form {
+.form { max-width: 40VW;
+    margin-top: 5rem;
     background: #000;
     border-radius: 1rem;
     padding: 2rem 0;
@@ -31,7 +32,7 @@ form div {
 }
 
 .header-form {
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,16 +40,19 @@ form div {
 
 }
 
+.header-form h2 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
 .header-form p {
     font-size: 14px;
     font-weight: 400;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.content-form {
+    width: 85%;
+
 }
 
 .content-form div{
@@ -61,14 +65,30 @@ form div {
 }
 
 .content-form select option {
+    height: 50px;
 }
 
 form button {
     width: 100%;
-    background: #FFA234;
+    background: #FF7901;
     border: none;
-    padding: 1rem 0;
-    font-size: 20px;
+    padding: 1.5rem 0;
+    font-size: 22px;
+    font-weight: 600;
     color: #fff;
-    font-weight: 500;
+    border-radius: 0.5rem;
 }
+
+
+@media (max-width: 960px) {
+    .form{ 
+        transition: 0.5s;
+        max-width: 70%;}
+  }
+
+  @media (max-width: 720px) {
+    .form{ 
+        transition: 0.5s;
+        max-width: 80%;}
+    
+  }
